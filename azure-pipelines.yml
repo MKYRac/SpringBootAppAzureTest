@@ -65,4 +65,4 @@ stages:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
               appName: $(webAppName)
-              package: '$(Pipeline.Workspace)/a/target/*.?(war|jar)'
+              package: '$(Pipeline.Workspace)/s/target/azure-test-0.0.1-SNAPSHOT.jar'
