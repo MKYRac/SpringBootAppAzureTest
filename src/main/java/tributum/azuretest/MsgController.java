@@ -44,7 +44,7 @@ public class MsgController {
 				return result;
 			} catch(Exception e) {
 				log.error(e.toString());
-				return "Message could not be processed due to an exception. Please view console for more information.";
+				return "Update Message could not be processed due to an exception. Please view console for more information.";
 			}
 			
 		} else {
