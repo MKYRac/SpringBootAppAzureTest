@@ -65,4 +65,4 @@ stages:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
               appName: $(webAppName)
-              package: '$(System.DefaultWorkingDirectory)/drop/s/target/azure-test-0.0.1-SNAPSHOT.jar'
+              package: '$(System.DefaultWorkingDirectory)/target/azure-test-0.0.1-SNAPSHOT.jar.'
