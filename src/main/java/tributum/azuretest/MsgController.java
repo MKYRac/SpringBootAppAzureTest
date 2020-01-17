@@ -1,4 +1,4 @@
-package tributum.azuretest;
+/*package tributum.azuretest;
 
 import javax.jms.Message;
 
@@ -26,13 +26,13 @@ public class MsgController {
 	
 	private static final Logger log = LoggerFactory.getLogger(Application.class);
 	
-	@RequestMapping(value = "/", produces = {"application/JSON"})
+	/*@RequestMapping(value = "/", produces = {"application/JSON"})
 	public String index(@RequestParam(value = "txmsg", required = false) String taxMessage) throws Exception {
 		if(taxMessage != null) {
 			try {
 				
-				log.info("<<< LOGGING STARTS HERE >>>");
-				template.convertAndSend(inputQueue, taxMessage);
+				
+				/*template.convertAndSend(inputQueue, taxMessage);
 				
 				template.setReceiveTimeout(1000);
 				
@@ -40,7 +40,7 @@ public class MsgController {
 				log.info(m.toString());
 				String result = "Published '" + ((ActiveMQTextMessage) m).getText() + "' successfully to output '" + m.getJMSDestination() + "'";
 				log.info(result);
-				log.info("<<< LOGGING ENDS HERE >>>");
+				
 				return result;
 			} catch(Exception e) {
 				log.error(e.toString());
@@ -54,3 +54,4 @@ public class MsgController {
 	}
 	
 }
+*/
