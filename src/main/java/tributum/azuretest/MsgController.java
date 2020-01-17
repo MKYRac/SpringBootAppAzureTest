@@ -44,11 +44,11 @@ public class MsgController {
 				return result;
 			} catch(Exception e) {
 				log.error(e.toString());
-				return "Update Message could not be processed due to an exception. Please view console for more information.";
+				return "This is new Message could not be processed due to an exception. Please view console for more information.";
 			}
 			
 		} else {
-			return "Please enter an XML Tax Message to get the tax amount calculated.";
+			return "This is also new Please enter an XML Tax Message to get the tax amount calculated.";
 		}
 		
 	}
